@@ -25,9 +25,9 @@ The following columns were removed:
 EIN and NAME: These identifiers do not contribute predictive information to the model.
 
 ### Compiling, Training, and Evaluating the Model
-How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
-* Initial Model:
+* How many neurons, layers, and activation functions did you select for your neural network model, and why?
+Initial Model:
 Layers: Two hidden layers.
 Neurons: 80 and 30 neurons for the hidden layers.
 Activation Functions: relu for hidden layers and sigmoid for the output layer.
