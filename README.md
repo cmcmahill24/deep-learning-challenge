@@ -1,12 +1,20 @@
-#Neural Network Model Analysis for AlphabetSoup Charity
+Notebook for initial model can be found under Starter_code, the optimization experiments and final model is in the AlphabetSoupCharity_Optimization.ipynb.
 
-##Overview of the Analysis
+Resources: ChatGpt and Xpert Learning Assistant for overall debugging and coding issues. 
+
+References: IRS. Tax Exempt Organization Search Bulk Data Downloads https://www.irs.gov/ from edX
+
+Background: The nonprofit foundation Alphabet Soup wants a tool that can help it select the applicants for funding with the best chance of success in their ventures. With your knowledge of machine learning and neural networks, you’ll use the features in the provided dataset to create a binary classifier that can predict whether applicants will be successful if funded by Alphabet Soup.
+
+# Neural Network Model Analysis for AlphabetSoup Charity
+
+## Overview of the Analysis
 
 The purpose of this analysis is to design, train, and optimize a deep neural network to predict the success of charity donations using the AlphabetSoup dataset. This project involves preprocessing data, building neural network models, and experimenting with different configurations to achieve the highest possible accuracy, aiming for at least 75%.
 
-##Results
+## Results
 
-###Data Preprocessing
+### Data Preprocessing
 What variable(s) are the target(s) for your model?
 The target variable is IS_SUCCESSFUL, which indicates whether a funding application was successful (1) or not (0).
 What variable(s) are the features for your model?
@@ -24,7 +32,7 @@ What variable(s) should be removed from the input data because they are neither 
 The following columns were removed:
 EIN and NAME: These identifiers do not contribute predictive information to the model.
 
-###Compiling, Training, and Evaluating the Model
+### Compiling, Training, and Evaluating the Model
 How many neurons, layers, and activation functions did you select for your neural network model, and why?
 
 Initial Model:
@@ -47,8 +55,8 @@ Experimented with different activation functions (relu vs. tanh).
 Dynamically adjusted the learning rate during training.
 Tested additional epochs to allow the model to converge further.
 
-##Summary
-###Overall Results:
+## Summary
+### Overall Results:
 The final optimized neural network achieved an accuracy of 73.12%. While this is a reasonable result, it doesn't reach the target accuracy of 75%.
 Adjusting hidden layers, neurons, and activation functions showed improvements in model performance.
 Recommendation:
